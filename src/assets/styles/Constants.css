@@ -1,0 +1,46 @@
+:root {
+  --color-bg: #f8bcbc;
+  --color-1: #f38ba2;
+  --color-2: #a36180;
+  --color-3: #6c4165;
+  --color-4: #473452;
+  --color-5: #1a141e;
+  --color-logo: #ffbf78;
+  --color-white: white;
+
+  --ht-vh: 100vh;
+  --ht-100-per: 100%;
+  --ht-page-min: 500px;
+  --ht-card-min: 480px;
+  --ht-menu: 80px;
+  --ht-text: 40px;
+  --ht-img-1: 60px;
+  --ht-img-2: 40px;
+  --ht-messages: calc(100% - 160px);
+
+  --wt-100-per: 100%;
+  --wt-card: 360px;
+  --wt-form-per: 80%;
+  --wt-img-1: 60px;
+  --wt-img-2: 40px;
+  --wt-btn: 80px;
+
+  --fs-logo-1: 80px;
+  --fs-logo-2: 40px;
+  --fs-1: 24px;
+  --fs-2: 18px;
+  --fs-text: 20px;
+
+  --m-0: 0;
+  --m-1: 10px;
+  --m-2: 20px;
+  --m-3: 60px;
+
+  --p-0: 0;
+  --p-1: 10px;
+  --p-2: 20px;
+  --p-3: 60px;
+
+  --br: 40px;
+  --gap: 10px;
+}

@@ -1,0 +1,8 @@
+@import url(../Constants.css);
+
+.messages {
+  background-color: var(--color-1);
+  padding: var(--p-1);
+  height: var(--ht-messages);
+  overflow: auto;
+}

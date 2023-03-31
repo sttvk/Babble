@@ -1,0 +1,63 @@
+@import url(../Constants.css);
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--p-1);
+  height: var(--ht-menu);
+  color: var(--color-white);
+  background-color: var(--color-4);
+}
+
+.nav-bar-logo {
+  font-weight: bold;
+  font-size: var(--fs-logo-2);
+  color: var(--color-logo);
+}
+
+.nav-bar-user {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: var(--ht-text);
+  gap: var(--gap);
+}
+
+.nav-bar-user > img {
+  height: var(--ht-img-2);
+  width: var(--ht-img-2);
+  border-radius: var(--br);
+  object-fit: cover;
+}
+
+.nav-bar-user > span {
+  font-size: var(--fs-1);
+}
+
+.nav-bar-user > button {
+  height: var(--ht-100-per);
+  width: var(--wt-btn);
+  border: none;
+  cursor: pointer;
+  font-size: var(--fs-1);
+  border-radius: var(--br);
+  color: var(--color-white);
+  background-color: var(--color-5);
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-bar-logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-bar-user > img {
+    display: none;
+  }
+
+  .nav-bar-user > span {
+    display: none;
+  }
+}

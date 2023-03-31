@@ -1,0 +1,64 @@
+@import url(../Constants.css);
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  margin: var(--m-1);
+  overflow: hidden;
+  border-radius: var(--br);
+  background-color: var(--color-3);
+}
+
+.search-box-container {
+  display: flex;
+  width: var(--wt-100-per);
+  overflow: hidden;
+}
+
+.search-box-container > input {
+  width: var(--wt-100-per);
+  padding: var(--p-1);
+  border: none;
+  font-size: var(--fs-text);
+  color: var(--color-white);
+  border-radius: var(--br);
+  background-color: transparent;
+}
+
+.user-chat {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--p-1);
+  gap: var(--gap);
+  color: white;
+  cursor: pointer;
+}
+
+.user-chat:hover {
+  background-color: var(--color-4);
+  border-radius: var(--br);
+}
+
+.user-chat > img {
+  width: var(--wt-img-2);
+  height: var(--ht-img-2);
+  border-radius: var(--br);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.user-chat-info > span {
+  font-size: var(--fs-1);
+}
+
+.user-chat-info > p {
+  font-size: var(--fs-1);
+  color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-chat-info {
+    display: none;
+  }
+}

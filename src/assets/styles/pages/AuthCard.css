@@ -1,0 +1,87 @@
+@import url(../Constants.css);
+
+.sign-up,
+.log-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ht-vh);
+  background-color: var(--color-bg);
+  min-height: var(--ht-page-min);
+}
+
+.AuthCard-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--ht-card-min);
+  width: var(--wt-card);
+  border-radius: var(--br);
+  padding: var(--p-2);
+  gap: var(--gap);
+  background-color: var(--color-white);
+}
+
+.AuthCard-logo {
+  font-weight: bold;
+  font-size: var(--fs-logo-1);
+  color: var(--color-logo);
+  overflow: hidden;
+}
+
+.AuthCard-form {
+  display: flex;
+  flex-direction: column;
+  width: var(--wt-form-per);
+  gap: var(--gap);
+  /* overflow: hidden; */
+}
+
+.AuthCard-form > input {
+  border: none;
+  padding: var(--p-1);
+  font-size: var(--fs-1);
+  border-bottom: 1px solid var(--color-1);
+}
+
+.AuthCard-form > label {
+  display: flex;
+  align-items: center;
+  padding: var(--p-1);
+  gap: var(--gap);
+  color: var(--color-1);
+  font-size: var(--fs-1);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.AuthCard-form > label > img {
+  height: var(--ht-img-2);
+  width: var(--ht-img-2);
+}
+
+.AuthCard-form > button {
+  color: white;
+  padding: var(--p-1);
+  font-size: var(--fs-1);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--br);
+  background-color: var(--color-3);
+  overflow: hidden;
+}
+
+.AuthCard-form-container > p {
+  color: var(--color-1);
+  font-size: var(--fs-1);
+  overflow: hidden;
+}
+
+.AuthCard-form-container > p > a {
+  color: var(--color-1);
+  font-size: var(--fs-1);
+  text-decoration: none;
+  overflow: hidden;
+}

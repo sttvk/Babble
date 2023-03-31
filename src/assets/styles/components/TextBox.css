@@ -1,0 +1,59 @@
+@import url(../Constants.css);
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--ht-text);
+  margin: var(--m-2) var(--m-1);
+  gap: var(--gap);
+}
+
+.text-box-input-container {
+  display: flex;
+  align-items: center;
+  height: var(--ht-100-per);
+  width: 90%;
+  border-radius: var(--br);
+  background-color: var(--color-white);
+}
+
+.text-box-input-container > input {
+  height: var(--ht-text);
+  width: var(--wt-100-per);
+  padding: var(--p-1) var(--p-2);
+  outline: none;
+  color: var(--color-3);
+  border: none;
+  border-radius: var(--br);
+  font-size: var(--fs-text);
+}
+
+.text-box-btn-container {
+  display: flex;
+  align-items: center;
+  height: var(--ht-100-per);
+}
+
+/* .text-box-btn-container > label {
+  display: flex;
+  align-items: center;
+} */
+
+/* .text-box-btn-container > label > img {
+  height: var(--ht-img-2);
+  width: var(--wt-img-2);
+  border-radius: var(--br);
+  cursor: pointer;
+} */
+
+.text-box-btn-container > button {
+  height: var(--ht-100-per);
+  width: var(--wt-btn);
+  font-size: var(--fs-1);
+  cursor: pointer;
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--br);
+  background-color: var(--color-3);
+}

@@ -1,0 +1,41 @@
+@import url(../Constants.css);
+
+.chat-container {
+  display: flex;
+  align-items: center;
+  padding: var(--p-1);
+  gap: var(--gap);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.chat-container > img {
+  min-height: var(--ht-img-1);
+  min-width: var(--ht-img-1);
+  max-height: var(--ht-img-1);
+  max-width: var(--ht-img-1);
+  border-radius: var(--br);
+  object-fit: cover;
+}
+
+.chat-info > span {
+  font-size: var(--fs-1);
+  font-weight: bold;
+}
+
+.chat-info > p {
+  font-size: var(--fs-2);
+  line-height: 1;
+  overflow: hidden;
+  color: var(--color-2);
+}
+
+.chats :hover {
+  background-color: var(--color-3);
+}
+
+@media only screen and (max-width: 600px) {
+  .chat-info {
+    display: none;
+  }
+}

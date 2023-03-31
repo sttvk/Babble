@@ -1,0 +1,18 @@
+@import url(../Constants.css);
+
+.chat-window {
+  flex: 3;
+}
+
+.chat-window-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: var(--ht-menu);
+  padding: var(--p-1);
+  font-size: var(--fs-1);
+  font-weight: bold;
+  gap: var(--gap);
+  color: var(--color-white);
+  background-color: var(--color-4);
+}
