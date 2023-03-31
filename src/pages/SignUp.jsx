@@ -63,7 +63,7 @@ const SignUp = () => {
       <div className="AuthCard-form-container">
         <span className="AuthCard-logo">Babble</span>
         <form className="AuthCard-form" onSubmit={handleSubmit}>
-          <input required type="text" placeholder="Name" />
+          <input required type="text" placeholder="Username" />
           <input required type="email" placeholder="Email" />
           <input required type="password" placeholder="Password" />
           <input style={{ display: "none" }} required type="file" id="file" />
